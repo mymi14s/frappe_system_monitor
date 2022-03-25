@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include frappe_system_monitor *.css
+recursive-include frappe_system_monitor *.csv
+recursive-include frappe_system_monitor *.html
+recursive-include frappe_system_monitor *.ico
+recursive-include frappe_system_monitor *.js
+recursive-include frappe_system_monitor *.json
+recursive-include frappe_system_monitor *.md
+recursive-include frappe_system_monitor *.png
+recursive-include frappe_system_monitor *.py
+recursive-include frappe_system_monitor *.svg
+recursive-include frappe_system_monitor *.txt
+recursive-exclude frappe_system_monitor *.pyc
