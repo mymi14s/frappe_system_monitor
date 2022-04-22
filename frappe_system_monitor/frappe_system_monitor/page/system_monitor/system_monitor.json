@@ -1,0 +1,19 @@
+{
+ "content": null,
+ "creation": "2022-03-25 23:21:28.029620",
+ "docstatus": 0,
+ "doctype": "Page",
+ "idx": 0,
+ "modified": "2022-03-25 23:21:28.029620",
+ "modified_by": "Administrator",
+ "module": "Frappe System Monitor",
+ "name": "system-monitor",
+ "owner": "Administrator",
+ "page_name": "System Monitor",
+ "roles": [],
+ "script": null,
+ "standard": "Yes",
+ "style": null,
+ "system_page": 0,
+ "title": "System Monitor"
+}

@@ -1,0 +1,8 @@
+{
+
+	"js/desk.min.js": [
+
+		"templates/pages/system_monitor.html",
+	]
+
+}
