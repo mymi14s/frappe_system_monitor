@@ -52,6 +52,7 @@ let get_chart_data = () => {
 			callback: function(r) {
 					// code snippet
 					data = r.message
+					console.log(r);
 					document.querySelector('#desc_table').innerHTML = data.desctable;
 					render_guage(data);
 					render_frequency(data.cpu);

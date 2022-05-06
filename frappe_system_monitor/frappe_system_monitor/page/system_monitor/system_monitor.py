@@ -4,6 +4,8 @@ import frappe, psutil, time, platform, os, datetime
 @frappe.whitelist()
 def execute(**kwargs):
     res = frappe._dict({})
+    if not ('System Manager' in [i.role for i in frappe.get_doc('User', frappe.session.user).roles]):
+        return res
     desctable = frappe.render_template(
 		"frappe_system_monitor/frappe_system_monitor/page/system_monitor/desctable.html",
 		context=dict(
